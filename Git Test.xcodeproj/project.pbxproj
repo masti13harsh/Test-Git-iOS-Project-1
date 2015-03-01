@@ -14,6 +14,7 @@
 		3A38876E1AA327A500B907CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A38876D1AA327A500B907CF /* Images.xcassets */; };
 		3A3887711AA327A500B907CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A38876F1AA327A500B907CF /* LaunchScreen.xib */; };
 		3A38877D1AA327A500B907CF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38877C1AA327A500B907CF /* Git_TestTests.m */; };
+		3A38878B1AA32C1600B907CF /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A38878A1AA32C1600B907CF /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3A3887761AA327A500B907CF /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A38877B1AA327A500B907CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A38877C1AA327A500B907CF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3A3887891AA32C1600B907CF /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		3A38878A1AA32C1600B907CF /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				3A3887671AA327A400B907CF /* ViewController.h */,
 				3A3887681AA327A400B907CF /* ViewController.m */,
 				3A38876A1AA327A500B907CF /* Main.storyboard */,
+				3A3887891AA32C1600B907CF /* CCTest.h */,
+				3A38878A1AA32C1600B907CF /* CCTest.m */,
 				3A38876D1AA327A500B907CF /* Images.xcassets */,
 				3A38876F1AA327A500B907CF /* LaunchScreen.xib */,
 				3A3887601AA327A400B907CF /* Supporting Files */,
@@ -222,6 +227,7 @@
 				3A3887691AA327A400B907CF /* ViewController.m in Sources */,
 				3A3887661AA327A400B907CF /* AppDelegate.m in Sources */,
 				3A3887631AA327A400B907CF /* main.m in Sources */,
+				3A38878B1AA32C1600B907CF /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
